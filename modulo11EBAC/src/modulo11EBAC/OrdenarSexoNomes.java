@@ -23,7 +23,7 @@ public class OrdenarSexoNomes {
 		            ArrayList<String> mulheres = new ArrayList<String>();
 		            
 		            
-		            String[] dados = entrada.split(", ");
+		            String[] dados = entrada.split(" ,");
 		            
 		            
 		            
