@@ -14,7 +14,7 @@ public class OrdenarSexoNomes {
 
 		        while (repetir) {
 
-		            System.out.println("Digite os nomes e sexos das pessoas separados por traço (-) e vírgula (,):");
+		            System.out.println("Digite os nomes e sexos das pessoas separados por traço (-) e vírgula (,): \n Ex: Julia - F, Caio - M, Ana - F");
 		            String entrada = scanner.nextLine();
 		            
 		            System.out.println(entrada);
@@ -23,7 +23,7 @@ public class OrdenarSexoNomes {
 		            ArrayList<String> mulheres = new ArrayList<String>();
 		            
 		            
-		            String[] dados = entrada.split(" ,");
+		            String[] dados = entrada.split(", ");
 		            
 		            
 		            
