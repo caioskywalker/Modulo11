@@ -16,7 +16,7 @@ public class OrdenarSexoNomes {
 
 		        	System.out.println("Digite os nomes e sexos das pessoas separados por traço (-) e vírgula (,): \n Ex: Julia-F,Caio-M,Ana-F");
 		        	String entrada = scanner.nextLine();
-		        	entrada.trim();
+		        	entrada.replaceAll("\\s+", "");
 		            
 		       
 
